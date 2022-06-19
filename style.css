@@ -1,0 +1,39 @@
+body {
+	font-family: sans-serif;
+}
+
+.container {
+	position: absolute;
+	transform: translate(-50%,-50%);
+	top: 50%;
+	left: 50%;
+}
+
+.navigation {
+	background-color: rgb(240, 240, 240, 0.5);
+	padding: 5px 20px;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	border-radius: 5px;
+}
+
+.navigation h2 {
+	padding-right: 20px;
+}
+
+.navigation-links {
+	padding: 10px;
+}
+
+.navigation-links a {
+	border-radius: 5px;
+	padding: 10px 15px;
+	text-decoration: none;
+	color: black;
+	border: 1px solid transparent;
+}
+
+.navigation-links a:hover {
+	border: 1px solid black;
+}
